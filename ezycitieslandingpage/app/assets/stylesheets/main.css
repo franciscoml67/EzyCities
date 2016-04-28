@@ -1,0 +1,563 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+body {
+  background: #dd3333;
+  background: -moz-linear-gradient(45deg, #e13c30, #dd3333);
+  background: -webkit-linear-gradient(45deg, #e13c30, #dd3333);
+  background: -o-linear-gradient(45deg, #e13c30, #dd3333);
+  background: -ms-linear-gradient(45deg, #e13c30, #dd3333);
+  background: linear-gradient(45deg, #e13c30, #dd3333);
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+  background: #FFF498;
+}
+
+::-moz-selection {
+  background: #FFF498;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  -webkit-tap-highlight-color: #FFF498;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:hover, a:focus {
+  color: #cccccc;
+}
+
+.gigantic, .huge, .large, .bigger, .big,
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.gigantic {
+  font-size: 110px;
+  line-height: 1.09;
+  letter-spacing: -2px;
+}
+
+.huge, h1 {
+  font-size: 68px;
+  line-height: 1.05;
+  letter-spacing: -1px;
+}
+
+.large, h2 {
+  font-size: 42px;
+  line-height: 1.14;
+}
+
+.bigger, h3 {
+  font-size: 26px;
+  line-height: 1.38;
+}
+
+.big, h4 {
+  font-size: 22px;
+  line-height: 1.38;
+}
+
+.small, small {
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 45px;
+  padding: 0 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button:hover, .button:active, .button:focus,
+button:hover,
+button:active,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="button"]:hover,
+input[type="button"]:active,
+input[type="button"]:focus {
+  color: #dd3333;
+  background-color: #ffffff;
+  outline: 0;
+}
+
+.home-page {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-page .top {
+  height: 15%;
+}
+
+.home-page .top .btn-host {
+  float: right;
+  margin: 20px 20px 20px 5px;
+  background-color: #ffffff;
+  color: #dd3333;
+}
+
+.home-page .top .btn-host:hover, .home-page .top .btn-host:active, .home-page .top .btn-host:focus {
+  color: #ffffff;
+  background-color: #dd3333;
+}
+
+.home-page .top .btn-back {
+  float: left;
+  margin: 20px 0 20px 20px;
+  border: 0;
+}
+
+.home-page .top .btn-back:hover, .home-page .top .btn-back:active, .home-page .top .btn-back:focus {
+  color: #ffffff;
+  background-color: #dd3333;
+}
+
+.home-page .center {
+  height: 75%;
+  width: 840px;
+  margin: 5px auto 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.home-page .center:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  margin-right: -.25em;
+  height: 100%;
+}
+
+@media only screen and (max-width: 840px) {
+  .home-page .center {
+    width: 640px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .home-page .center {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .home-page .center {
+    width: 300px;
+  }
+}
+
+.home-page .center .content {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+.home-page .center .content .logo-container {
+  display: block;
+}
+
+.home-page .center .content .logo-container .logo {
+  width: 33.3%;
+}
+
+@media only screen and (max-width: 640px) {
+  .home-page .center .content .logo-container .logo {
+    width: 66.7%;
+  }
+}
+
+.home-page .center .content .slogan {
+  display: block;
+}
+
+.home-page .center .content .learn {
+  display: block;
+}
+
+.home-page .center .content .learn .btn-learn {
+  margin: 35px 20px;
+}
+
+@media only screen and (max-width: 640px) {
+  .home-page .center .content .learn .btn-learn {
+    margin: 20px 20px;
+  }
+}
+
+.home-page .center .content .social {
+  display: block;
+}
+
+.home-page .center .content .social .social-img {
+  width: 50px;
+  margin: 20px 15px;
+}
+
+.home-page .bottom {
+  height: 10%;
+  width: 840px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 840px) {
+  .home-page .bottom {
+    width: 640px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .home-page .bottom {
+    width: 320px;
+  }
+}
+
+.home-page .bottom p {
+  margin: 0;
+  display: inline-block;
+  padding: 0 0 40px 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .home-page .bottom .big-text {
+    content: "ola";
+  }
+}
+
+.home-page .bottom .bottom-aligner {
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+  width: 0px;
+}
+
+.home-page .contact-form .title {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.home-page .contact-form .title h3 {
+  margin-bottom: 0;
+}
+
+.home-page .contact-form .form {
+  width: 70%;
+  margin: 0 auto;
+  color: #dd3333;
+}
+
+.home-page .contact-form .form .form-div {
+  width: 100%;
+}
+
+.home-page .contact-form .form .form-div .form-control {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.home-page .contact-form .form .form-div .form-control input {
+  padding: 0;
+}
+
+.home-page .contact-form .form .form-submit {
+  margin: 5px 0 10px;
+}
+
+.home-page .learn-more .title {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-page .learn-more .text p {
+  padding: 0;
+  margin: 0;
+}
