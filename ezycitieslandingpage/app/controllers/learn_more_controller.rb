@@ -1,2 +1,0 @@
-class LearnMoreController < ApplicationController
-end
