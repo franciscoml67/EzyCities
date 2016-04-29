@@ -1,0 +1,2 @@
+class LearnMoreController < ApplicationController
+end
