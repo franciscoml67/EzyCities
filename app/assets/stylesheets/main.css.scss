@@ -329,7 +329,7 @@ input[type="reset"],
 input[type="button"] {
   display: inline-block;
   height: 45px;
-  padding: 0 30px;
+  padding: 0 25px;
   color: #ffffff;
   text-align: center;
   font-size: 13px;
@@ -372,11 +372,23 @@ input[type="button"]:focus {
   height: 15%;
 }
 
+@media only screen and (max-height: 560px) {
+  .home-page .top {
+    height: 12%;
+  }
+}
+
 .home-page .top .btn-host {
   float: right;
-  margin: 20px 20px 20px 5px;
+  margin: 20px 20px 20px 0;
   background-color: #ffffff;
   color: #dd3333;
+}
+
+@media only screen and (max-height: 560px) {
+  .home-page .top .btn-host {
+    margin: 20px 20px 10px 5px;
+  }
 }
 
 .home-page .top .btn-host:hover, .home-page .top .btn-host:active, .home-page .top .btn-host:focus {
@@ -390,9 +402,15 @@ input[type="button"]:focus {
   border: 0;
 }
 
+@media only screen and (max-height: 560px) {
+  .home-page .top .btn-back {
+    margin: 20px 20px 10px 5px;
+  }
+}
+
 .home-page .top .btn-back:hover, .home-page .top .btn-back:active, .home-page .top .btn-back:focus {
   color: #ffffff;
-  background-color: #dd3333;
+  background-color: transparent;
 }
 
 .home-page .center {
@@ -401,6 +419,8 @@ input[type="button"]:focus {
   margin: 5px auto 0;
   text-align: center;
   white-space: nowrap;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .home-page .center:before {
@@ -463,9 +483,9 @@ input[type="button"]:focus {
   margin: 35px 20px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-height: 560px) {
   .home-page .center .content .learn .btn-learn {
-    margin: 20px 20px;
+    margin: 5px 20px;
   }
 }
 
@@ -476,6 +496,12 @@ input[type="button"]:focus {
 .home-page .center .content .social .social-img {
   width: 50px;
   margin: 20px 15px;
+}
+
+@media only screen and (max-height: 560px) {
+  .home-page .center .content .social .social-img {
+    margin: 5px 15px;
+  }
 }
 
 .home-page .bottom {
@@ -500,13 +526,7 @@ input[type="button"]:focus {
 .home-page .bottom p {
   margin: 0;
   display: inline-block;
-  padding: 0 0 40px 0;
-}
-
-@media only screen and (max-width: 640px) {
-  .home-page .bottom .big-text {
-    content: "ola";
-  }
+  padding: 0 0 10px 0;
 }
 
 .home-page .bottom .bottom-aligner {
@@ -517,15 +537,24 @@ input[type="button"]:focus {
 }
 
 .home-page .contact-form .title {
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
-  padding: 20px;
   text-align: center;
-  color: #ffffff;
 }
 
 .home-page .contact-form .title h3 {
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page .contact-form .title p {
+  color: #ffffff;
+}
+
+@media only screen and (max-height: 560px) {
+  .home-page .contact-form .title p {
+    margin-bottom: 0;
+  }
 }
 
 .home-page .contact-form .form {
@@ -552,12 +581,16 @@ input[type="button"]:focus {
 }
 
 .home-page .learn-more .title {
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
-  padding: 20px;
+}
+
+.home-page .learn-more .title h3 {
+  margin-top: 0;
+  padding: 0;
 }
 
 .home-page .learn-more .text p {
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
 }
