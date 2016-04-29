@@ -90,7 +90,7 @@ Rails.application.configure do
 		domain:               'gmail.com',
 		user_name:            'fmldeveloping@gmail.com',
 		password:             'SonsOfAnarchy1967.', #stepbystep8891
-		authentication:       'login',
+		authentication:       'plain',
 		enable_starttls_auto: true
   }
 end
