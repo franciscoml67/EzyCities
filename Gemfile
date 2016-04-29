@@ -57,6 +57,7 @@ gem 'fancybox-rails'
 
 gem 'figaro'
 gem 'puma'
+  gem 'pg'
 group :development do
   gem 'capistrano'
   gem 'capistrano3-puma'
