@@ -10,7 +10,8 @@ class Contact < MailForm::Base
     {
       :subject => "Become a Host Application",
       :to => "main@ezycities.com",
-      :from => %("#{name}" <#{email}>)
+      :from => "main@ezycities.com"
+      #{}%("#{name}" <#{email}>)
     }
   end
 end
