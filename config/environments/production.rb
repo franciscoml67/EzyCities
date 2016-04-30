@@ -85,12 +85,12 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-		address:              'smtp.gmail.com',
-		port:                 587,
-		domain:               'gmail.com',
-		user_name:            'fmldeveloping@gmail.com',
-		password:             'SonsOfAnarchy1967.', #stepbystep8891
-		authentication:       'plain',
-		enable_starttls_auto: true
+      :address => "email-smtp.us-east-1.amazonaws.com",
+      :port => 587, # Port 25 is throttled on AWS
+      :user_name => "ezycities", # Your SMTP user here.
+      :password => "Stepbystep8891", # Your SMTP password here.
+      :authentication => :login,
+      :enable_starttls_auto => true
   }
+
 end
